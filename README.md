@@ -5,3 +5,4 @@ This is a presented solution for the WGU's Disaster Relief Problem using AI and 
 ## A Coppelia Robotics Virtual Robot
 
 [Docs](https://www.coppeliarobotics.com/helpFiles/index.html)
+[Resources](https://www.coppeliarobotics.com/resources)
