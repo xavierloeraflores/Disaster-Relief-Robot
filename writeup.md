@@ -5,7 +5,7 @@ ID:011037676
 xloeraf@wgu.edu
 C951 Introduction to Artificial Intelligence
 
-## Distaster Recovery Environment & Obstacles
+## Disaster Recovery Environment & Obstacles
 
 ## Robot Adaptability to Obstacles
 
@@ -34,4 +34,4 @@ Alternatively, the robot can improve it's performance and learning through the u
 
 ## Sources
 
-I did not use any external sources to compltete this writeup.
+I did not use any external sources to complete this writeup.
