@@ -19,6 +19,8 @@ The robot is equipped with an additional proximity sensor and a object detector 
 
 ## Maintenance Internal Environment Representation
 
+Utilizing both the object detector sensor as well as the proximity sensor, the robot is able to maintain an internal environment representation. The object detector sensor allows the robot to identify objects in the environment and the proximity sensor allows the robot to identify the distance between the robot and the object. The robot can use this information to create a map of the environment and identify where obstacles are located. Once the robot has where obstacles are located, it uses this information to change is course and navigate towards a different direction. The robot uses the object detector sensor and marks them as found once it has reached them.
+
 ## Reasoning, Knowledge Representation, Uncertainty, Intelligence
 
 ## Further Prototype Improvements
