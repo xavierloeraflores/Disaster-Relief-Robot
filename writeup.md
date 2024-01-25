@@ -15,6 +15,8 @@ The robot will improve disaster recovery in the environment by adapting to the o
 
 ## Justifications for Robot Architecture Modifications
 
+The robot is equipped with an additional proximity sensor and a object detector sensor. The proximity sensor allows the robot to detect any obstacles or walls that are in the way of the robot. The object detector will allow the robot to identify wether an object is an obstacle or an objective. These sensors allow the robot to navigate around obstacles and find objectives.
+
 ## Maintenance Internal Environment Representation
 
 ## Reasoning, Knowledge Representation, Uncertainty, Intelligence
