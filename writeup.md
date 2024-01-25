@@ -7,6 +7,8 @@ C951 Introduction to Artificial Intelligence
 
 ## Disaster Recovery Environment & Obstacles
 
+The robot will navigate a disaster environment that is representative of a burning building with two key obstacles in the way of the robot. Fire will be scattered and present throughout the simulation in small patches that can be navigated around. There are also large pieces of debris that block large portions of the environment. The robot will need to navigate around the fire and debris to find its objectives.
+
 ## Robot Adaptability to Obstacles
 
 ## Justifications for Robot Architecture Modifications
