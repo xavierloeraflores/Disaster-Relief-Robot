@@ -15,7 +15,7 @@ The robot will improve disaster recovery in the environment by adapting to the o
 
 ## Justifications for Robot Architecture Modifications
 
-The robot is equipped with an additional proximity sensor and a object detector sensor. The proximity sensor allows the robot to detect any obstacles or walls that are in the way of the robot. The object detector will allow the robot to identify wether an object is an obstacle or an objective. These sensors allow the robot to navigate around obstacles and find objectives.
+The robot is equipped with an additional proximity sensor and an object detector sensor. The proximity sensor allows the robot to detect any obstacles or walls that are in the way of the robot. The object detector will allow the robot to identify whether an object is an obstacle or an objective. These sensors allow the robot to navigate around obstacles and find objectives.
 
 ## Maintenance Internal Environment Representation
 
@@ -25,11 +25,11 @@ Utilizing both the object detector sensor as well as the proximity sensor, the r
 
 #### Reasoning
 
-The robot follows the following reasoning to achieve its goal. It will move forward until finds an obstacle. It will then change course an move in a different direction. While it is doing this, it will be looking for objective targets to mark them as found.
+The robot follows the following reasoning to achieve its goal. It will move forward until it finds an obstacle. It will then change course and move in a different direction. While it is doing this, it will be looking for objective targets to mark them as found.
 
 #### Knowledge Representation
 
-The robot is able to represent its knowledge of the environment by utilizing its two main sensors. The proximity sensor represents whether there is an obstacle or an objective in the robots path. The object detector presents whether an objective is in the robot path allowing it to mark it as found.
+The robot is able to represent its knowledge of the environment by utilizing its two main sensors. The proximity sensor represents whether there is an obstacle or an objective in the robot's path. The object detector presents whether an objective is in the robot path allowing it to mark it as found.
 
 #### Uncertainty
 
@@ -37,18 +37,18 @@ The proximity sensor alone would have produced are large amount of uncertainty f
 
 #### Intelligence
 
-The robot is able to adapt to its environment to find its objectives. Despite encountering obstacles, the robot it able to intelligently navigate around them and find its objectives. The robot is also able to intelligently mark its objectives as found once it has reached them.
+The robot is able to adapt to its environment to find its objectives. Despite encountering obstacles, the robot is able to intelligently navigate around them and find its objectives. The robot is also able to intelligently mark its objectives as found once it has reached them.
 
 ## Further Prototype Improvements
 
-There are many improvements that can made to the robot to support its disaster relief endeavors. The main issue with the robot is that it has no way to access space completely blocked off by obstacles.
+There are many improvements that can be made to the robot to support its disaster relief endeavors. The main issue with the robot is that it has no way to access space completely blocked off by obstacles.
 The following are potential physical improvements that can be made to the robot to mitigate this issue:
 
 - Flight: The robot can be equipped with a flight mechanism that allows it to fly over obstacles. This would allow the robot to access areas that are completely blocked off by obstacles.
 - Mechanical Arms: The robot can be equipped with mechanical arms that allow it to move obstacles out of the way. This would allow the robot to access areas that are partially blocked off by obstacles.
 - Drill: The robot can be equipped with a drill that allows it to drill through obstacles. This would allow the robot to access areas that are partially blocked off by obstacles.
 
-Alternatively, the robot can improve it's performance and learning through the use of reinforced learning and advanced search algorithms.
+Alternatively, the robot can improve its performance and learning through the use of reinforced learning and advanced search algorithms.
 
 - Reinforced Learning: The robot can be equipped with reinforced learning to improve its performance. Reinforced learning would allow the robot to learn from its mistakes and improve its performance over time if we reward/penalize the robot on its effectiveness for searching a space. This would allow the robot to learn how to navigate environments more efficiently and find more survivors in a shorter amount of time.
 
