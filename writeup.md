@@ -23,6 +23,16 @@ Utilizing both the object detector sensor as well as the proximity sensor, the r
 
 ## Reasoning, Knowledge Representation, Uncertainty, Intelligence
 
+#### Reasoning
+
+The robot follows the following reasoning to achieve its goal. It will move forward until finds an obstacle. It will then change course an move in a different direction. While it is doing this, it will be looking for objective targets to mark them as found.
+
+#### Knowledge Representation
+
+#### Uncertainty
+
+#### Intelligence
+
 ## Further Prototype Improvements
 
 There are many improvements that can made to the robot to support its disaster relief endeavors. The main issue with the robot is that it has no way to access space completely blocked off by obstacles.
