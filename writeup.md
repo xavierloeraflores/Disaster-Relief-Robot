@@ -29,9 +29,15 @@ The robot follows the following reasoning to achieve its goal. It will move forw
 
 #### Knowledge Representation
 
+The robot is able to represent its knowledge of the environment by utilizing its two main sensors. The proximity sensor represents whether there is an obstacle or an objective in the robots path. The object detector presents whether an objective is in the robot path allowing it to mark it as found.
+
 #### Uncertainty
 
+The proximity sensor alone would have produced are large amount of uncertainty for the robot. It would have been unable to identify objectives vs obstacles. The object detector sensor allows the robot to identify with certainty whether or not it has found a key objective.
+
 #### Intelligence
+
+The robot is able to adapt to its environment to find its objectives. Despite encountering obstacles, the robot it able to intelligently navigate around them and find its objectives. The robot is also able to intelligently mark its objectives as found once it has reached them.
 
 ## Further Prototype Improvements
 
